@@ -1,0 +1,13 @@
+module HelloApp
+{
+	interface Hello
+	{
+	string judgeInt(in string inStr);
+	string sum_func(in string inStr);
+	string Combination_func(in string inStr);
+
+	string func_cal();
+
+	oneway void shutdown();
+	};
+};
